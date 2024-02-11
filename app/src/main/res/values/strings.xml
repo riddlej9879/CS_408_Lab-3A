@@ -39,13 +39,13 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
-        <item>\u00D7</item>
-        <item>0</item>
+        <item>\u00F7</item>
+        <item>%</item>
         <!--    Row 3   -->
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>\u00F7</item>
+        <item>\u00D7</item>
         <item>-</item>
         <!--    Row 4   -->
         <item>\u00B1</item>

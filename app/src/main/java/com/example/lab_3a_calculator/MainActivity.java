@@ -16,9 +16,10 @@ import androidx.constraintlayout.widget.Guideline;
 
 import com.example.lab_3a_calculator.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
-    private static final String TAG_INITIALIZE_LAYOUT = "InitializeLayout()";
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG_MAIN_ACTIVITY = "MainActivity()";
+    private static final String TAG_INITIALIZE_LAYOUT = "InitializeLayout()";
+    private static final String TAG_ON_CLICK = "onClick()";
     private ActivityMainBinding binding;
     private final int NORTH = R.id.guidelineTop;
     private final int SOUTH = R.id.guidelineBottom;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+        Log.i(TAG_MAIN_ACTIVITY, "Main Activity started");
 
         initializeLayout();
     }
@@ -94,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
                 btn_params.height = ConstraintLayout.LayoutParams.MATCH_CONSTRAINT;
                 btn.setLayoutParams(btn_params);
                 btn.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+
+                btn.setOnClickListener(this);
                 btn_counter++;
             }
         }
@@ -122,5 +126,11 @@ public class MainActivity extends AppCompatActivity {
             );
         }
         set.applyTo(layout);
+    }
+
+    public void onClick(View view) {
+        Log.i(TAG_ON_CLICK, "OnClick started");
+        String tag = view.getTag().toString();
+        Log.i(TAG_ON_CLICK, tag);
     }
 }
