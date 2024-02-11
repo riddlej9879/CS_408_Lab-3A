@@ -1,26 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="output">0</string>
+    <string-array name="button_tags">
+        <!--    Row 1   -->
+        <item>Button_7</item>
+        <item>Button_8</item>
+        <item>Button_9</item>
+        <item>Button_SqRt</item>
+        <item>Button_Clear</item>
+        <!--    Row 2   -->
+        <item>Button_4</item>
+        <item>Button_5</item>
+        <item>Button_6</item>
+        <item>Button_Divide</item>
+        <item>Button_Percent</item>
+        <!--    Row 3   -->
+        <item>Button_1</item>
+        <item>Button_2</item>
+        <item>Button_3</item>
+        <item>Button_Multiply</item>
+        <item>Button_Subtract</item>
+        <!--    Row 4   -->
+        <item>Button_Negative</item>
+        <item>Button_0</item>
+        <item>Button_Decimal</item>
+        <item>Button_Addition</item>
+        <item>Button_Equal</item>
+    </string-array>
     <string-array name="button_text">
-    <!--    Row 1   -->
+        <!--    Row 1   -->
         <item>7</item>
         <item>8</item>
         <item>9</item>
         <item>\u221A</item>
         <item>C</item>
-    <!--    Row 2   -->
+        <!--    Row 2   -->
         <item>4</item>
         <item>5</item>
         <item>6</item>
         <item>\u00D7</item>
         <item>0</item>
-    <!--    Row 3   -->
+        <!--    Row 3   -->
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>\u00F7</item>
         <item>-</item>
-    <!--    Row 4   -->
+        <!--    Row 4   -->
         <item>\u00B1</item>
         <item>0</item>
         <item>.</item>
