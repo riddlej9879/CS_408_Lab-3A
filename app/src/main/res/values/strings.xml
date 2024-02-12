@@ -2,56 +2,55 @@
 <resources>
     <string name="app_name">Calculator</string>
     <string name="output">0</string>
-    <string-array name="button_tags">
-        <!--    Row 1   -->
-        <item>Button_7</item>
-        <item>Button_8</item>
-        <item>Button_9</item>
-        <item>Button_SqRt</item>
-        <item>Button_Clear</item>
-        <!--    Row 2   -->
-        <item>Button_4</item>
-        <item>Button_5</item>
-        <item>Button_6</item>
-        <item>Button_Divide</item>
-        <item>Button_Percent</item>
-        <!--    Row 3   -->
-        <item>Button_1</item>
-        <item>Button_2</item>
-        <item>Button_3</item>
-        <item>Button_Multiply</item>
-        <item>Button_Subtract</item>
-        <!--    Row 4   -->
-        <item>Button_Negative</item>
-        <item>Button_0</item>
-        <item>Button_Decimal</item>
-        <item>Button_Addition</item>
-        <item>Button_Equal</item>
-    </string-array>
-    <string-array name="button_text">
-        <!--    Row 1   -->
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>\u221A</item>
-        <item>C</item>
-        <!--    Row 2   -->
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>\u00D7</item>
-        <item>0</item>
-        <!--    Row 3   -->
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>\u00F7</item>
-        <item>-</item>
-        <!--    Row 4   -->
-        <item>\u00B1</item>
-        <item>0</item>
-        <item>.</item>
-        <item>+</item>
-        <item>=</item>
-    </string-array>
+    <!--    Tags    -->
+    <!--    Row 1   -->
+    <string name="btn_tag_7">Button_7</string>
+    <string name="btn_tag_8">Button_8</string>
+    <string name="btn_tag_9">Button_9</string>
+    <string name="btn_tag_SqRt">Button_SqRt</string>
+    <string name="btn_tag_Clear">Button_Clear</string>
+    <!--    Row 2   -->
+    <string name="btn_tag_4">Button_4</string>
+    <string name="btn_tag_5">Button_5</string>
+    <string name="btn_tag_6">Button_6</string>
+    <string name="btn_tag_Divide">Button_Divide</string>
+    <string name="btn_tag_Percent">Button_Percent</string>
+    <!--    Row 3   -->
+    <string name="btn_tag_1">Button_1</string>
+    <string name="btn_tag_2">Button_2</string>
+    <string name="btn_tag_3">Button_3</string>
+    <string name="btn_tag_Multiply">Button_Multiply</string>
+    <string name="btn_tag_Subtract">Button_Subtract</string>
+    <!--    Row 4   -->
+    <string name="btn_tag_Negative">Button_Negative</string>
+    <string name="btn_tag_0">Button_0</string>
+    <string name="btn_tag_Decimal">Button_Decimal</string>
+    <string name="btn_tag_Addition">Button_Addition</string>
+    <string name="btn_tag_Equals">Button_Equals</string>
+    
+    <!--    Text    -->
+    <!--    Row 1   -->
+    <string name="btn_txt_7">7</string>
+    <string name="btn_txt_8">8</string>
+    <string name="btn_txt_9">9</string>
+    <string name="btn_txt_SqRt">\u221A</string>
+    <string name="btn_txt_Clear">C</string>
+    <!--    Row 2   -->
+    <string name="btn_txt_4">4</string>
+    <string name="btn_txt_5">5</string>
+    <string name="btn_txt_6">6</string>
+    <string name="btn_txt_Divide">\u00F7</string>
+    <string name="btn_txt_Percent">%</string>
+    <!--    Row 3   -->
+    <string name="btn_txt_1">1</string>
+    <string name="btn_txt_2">2</string>
+    <string name="btn_txt_3">3</string>
+    <string name="btn_txt_Multiply">\u00D7</string>
+    <string name="btn_txt_Subtract">-</string>
+    <!--    Row 4   -->
+    <string name="btn_txt_Negative">\u00B1</string>
+    <string name="btn_txt_0">0</string>
+    <string name="btn_txt_Decimal">.</string>
+    <string name="btn_txt_Addition">+</string>
+    <string name="btn_txt_Equals">=</string>
 </resources>
